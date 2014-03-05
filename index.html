@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Health Systems Prototype</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script type="text/javascript" src="js/respond.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+	<!-- Navigation -->
+		<div class="row">
+			<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+				<div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+	                  <span class="sr-only">Toggle navigation</span>
+	                  <span class="glyphicon glyphicon-arrow-down"></span>
+	                  MENU
+	                </button>
+	            </div>
+
+	            <div class="collapse navbar-collapse" id="collapse">
+	            <div class="container">
+	            	<ul class="nav navbar-nav">
+	            		<li class="active"><a href="index.html">Home</a></li>
+	            		<li><a href="index.html">On Call</a></li>
+	            	</ul>
+	            	</div>
+	            </div><!-- END collapse id -->
+			</nav>
+	</div><!-- END row -->
+
+	<div class="panel-group" id="accordion">
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+      				<a href="#add" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"><span class="glyphicon glyphicon-plus"></span> Add Patient</a>				
+				</h4>
+			</div>
+
+			<div id="add" class="panel-collapse collapse">
+				<div class="panel-body">
+					<p>Form will go here</p>
+					<p><a href="#" class="btn btn-info"> Add</a></p>
+				</div><!-- END panel body -->
+			</div><!-- END panel collapse -->
+		</div><!-- END palen panel-default -->
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+      				<a href="#details" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"><span class="glyphicon glyphicon-list-alt"></span> Patient Details</a>				
+				</h4>
+			</div>
+
+			<div id="details" class="panel-collapse collapse">
+				<div class="panel-body">
+					<p>Inofrmation about patient will go here.</p>
+				</div><!-- END panel body -->
+			</div><!-- END panel collapse -->
+		</div><!-- END palen panel-default -->
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title">
+      				<a href="#status" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"><span class="glyphicon glyphicon-stats"></span> Update Status</a>				
+				</h4>
+			</div>
+
+			<div id="status" class="panel-collapse collapse">
+				<div class="panel-body">
+					<p>Form will go here</p>
+					<p><a href="#" class="btn btn-info"> Update </a></p>
+				</div><!-- END panel body -->
+			</div><!-- END panel collapse -->
+		</div><!-- END palen panel-default -->
+
+
+	</div><!-- END panel group -->
+
+<button class="btn btn-danger btn-lg">Emergency</button>
+
+
+</div><!-- END tab content -->	
+
+
+
+
+<!-- javascript -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

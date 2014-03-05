@@ -1,0 +1,28 @@
+/* Custome Style Sheet */
+body {
+	background-color: #ddd;
+	padding-top: 70px;	
+}
+
+button .glyphicon-arrow-down {
+	color: black;
+}
+
+button:hover .glyphicon-arrow-down {
+	color: #363636;
+}
+.navbar-inverse:hover .navbar-toggle {
+	color: #363636;
+}
+.navbar-toggle {
+	background-color: white;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #EEE;
+}
+
+button.btn-danger {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
